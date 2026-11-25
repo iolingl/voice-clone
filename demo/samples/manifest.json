@@ -1,0 +1,112 @@
+[
+  {
+    "id": "dxl_v3A_t1",
+    "voice": "dongxuelian",
+    "voice_name": "东雪莲",
+    "engine": "GPT-SoVITS 微调",
+    "title": "常用测试句（v3 默认参考）",
+    "text": "你好，今天天气真不错，很高兴认识你。",
+    "lang": "zh",
+    "file": "dongxuelian_v3A_t1.wav"
+  },
+  {
+    "id": "dxl_v3A_t2",
+    "voice": "dongxuelian",
+    "voice_name": "东雪莲",
+    "engine": "GPT-SoVITS 微调",
+    "title": "自我介绍（v3）",
+    "text": "大家好，我是用人工智能克隆出来的声音，希望你们喜欢。",
+    "lang": "zh",
+    "file": "dongxuelian_v3A_t2.wav"
+  },
+  {
+    "id": "dxl_v3Aslow",
+    "voice": "dongxuelian",
+    "voice_name": "东雪莲",
+    "engine": "GPT-SoVITS 微调",
+    "title": "慢速朗读（v3）",
+    "text": "你好，今天天气真不错，很高兴认识你。",
+    "lang": "zh",
+    "file": "dongxuelian_v3Aslow.wav"
+  },
+  {
+    "id": "dxl_v3D",
+    "voice": "dongxuelian",
+    "voice_name": "东雪莲",
+    "engine": "GPT-SoVITS 微调",
+    "title": "高音色参考对比（v3D）",
+    "text": "你好，今天天气真不错，很高兴认识你。",
+    "lang": "zh",
+    "file": "dongxuelian_v3D.wav"
+  },
+  {
+    "id": "dxl_v3E",
+    "voice": "dongxuelian",
+    "voice_name": "东雪莲",
+    "engine": "GPT-SoVITS 微调",
+    "title": "低 HNR 参考对比（v3E）",
+    "text": "你好，今天天气真不错，很高兴认识你。",
+    "lang": "zh",
+    "file": "dongxuelian_v3E.wav"
+  },
+  {
+    "id": "dxl_soft",
+    "voice": "dongxuelian",
+    "voice_name": "东雪莲",
+    "engine": "CosyVoice3 零样本 · 柔声",
+    "title": "柔声朗读（气声实验）",
+    "text": "大家好，我是东雪莲，今天想和大家聊一聊人工智能语音克隆，只需要一段很短的录音就可以让机器用你的声音说出任何语言的话，是不是很神奇呢？",
+    "lang": "zh",
+    "file": "dongxuelian_soft.wav"
+  },
+  {
+    "id": "dxl_intro1",
+    "voice": "dongxuelian",
+    "voice_name": "东雪莲",
+    "engine": "CosyVoice3 零样本",
+    "title": "介绍语（零样本）",
+    "text": "大家好，我是东雪莲，今天想和大家聊一聊人工智能语音克隆，只需要一段很短的录音就可以让机器用你的声音说出任何语言的话，是不是很神奇呢？",
+    "lang": "zh",
+    "file": "dongxuelian_intro1.wav"
+  },
+  {
+    "id": "dxl_intro2",
+    "voice": "dongxuelian",
+    "voice_name": "东雪莲",
+    "engine": "CosyVoice3 零样本",
+    "title": "直播问候（零样本）",
+    "text": "晚上好，欢迎来到我的直播间，今天我们来玩一个很有趣的游戏，希望大家能够喜欢。",
+    "lang": "zh",
+    "file": "dongxuelian_intro2.wav"
+  },
+  {
+    "id": "v37_twinkle_ref11",
+    "voice": "voice37",
+    "voice_name": "37",
+    "engine": "CosyVoice3 零样本",
+    "title": "朗读《小星星》（ref_11 参考）",
+    "text": "Twinkle, twinkle, little star, how I wonder what you are. Up above the world so high, like a diamond in the sky. When the blazing sun is gone, when he nothing shines upon, then you show your little light. Twinkle, twinkle, all the night.",
+    "lang": "en",
+    "file": "voice37_twinkle_ref11.wav"
+  },
+  {
+    "id": "v37_twinkle_ref01",
+    "voice": "voice37",
+    "voice_name": "37",
+    "engine": "CosyVoice3 零样本",
+    "title": "朗读《小星星》（ref_01 参考）",
+    "text": "Twinkle, twinkle, little star, how I wonder what you are. Up above the world so high, like a diamond in the sky. When the blazing sun is gone, when he nothing shines upon, then you show your little light. Twinkle, twinkle, all the night.",
+    "lang": "en",
+    "file": "voice37_twinkle_ref01.wav"
+  },
+  {
+    "id": "v37_twinkle_slow",
+    "voice": "voice37",
+    "voice_name": "37",
+    "engine": "CosyVoice3 零样本 · 慢速",
+    "title": "慢速朗读《小星星》",
+    "text": "Twinkle, twinkle, little star, how I wonder what you are. Up above the world so high, like a diamond in the sky.",
+    "lang": "en",
+    "file": "voice37_twinkle_slow.wav"
+  }
+]

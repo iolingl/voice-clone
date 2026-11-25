@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>声音克隆演示</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>声音克隆演示</h1>
+      <p class="subtitle">基于零样本与微调的多语种个性化声音克隆系统</p>
+      <div class="status" id="status">
+        <span class="dot" id="dot-gsv"></span><span id="st-gsv">GPT-SoVITS</span>
+        <span class="dot" id="dot-cosy"></span><span id="st-cosy">CosyVoice</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2><span class="num">1</span> 选择音色</h2>
+      <div class="voices" id="voices"></div>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">2</span> 输入文本，生成语音</h2>
+      <div class="tts-controls">
+        <div class="lang-row" id="lang-row"></div>
+        <div class="speed-row">
+          <label for="speed">语速 <b id="speed-val">1.00×</b></label>
+          <input type="range" id="speed" min="0.6" max="1.4" step="0.05" value="1.0" />
+        </div>
+      </div>
+      <textarea id="text" maxlength="400" placeholder="在此输入要合成的文本…"></textarea>
+      <div class="text-foot">
+        <div class="examples" id="examples"></div>
+        <div class="count"><span id="count">0</span>/400</div>
+      </div>
+      <div class="gen-row">
+        <button id="generate" class="primary">🔊 生成语音</button>
+        <span class="hint" id="gen-hint"></span>
+      </div>
+      <div class="result hidden" id="result">
+        <audio id="player" controls></audio>
+        <a id="download" class="download" download="tts.wav">⬇ 下载 WAV</a>
+        <span class="meta" id="result-meta"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">3</span> 示例音频</h2>
+      <p class="section-note">项目已有的合成结果，可直接试听（按音色分组）。</p>
+      <div id="gallery"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>声音克隆演示 · 数据与音色仅用于学习研究，版权归原视频作者所有。</p>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

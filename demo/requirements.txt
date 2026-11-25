@@ -1,0 +1,14 @@
+# The demo is designed to run on top of two existing conda environments
+# (see README).  The packages below are what each process needs; they are
+# normally already installed in those envs.
+#
+# --- main web app (env: gptsovits) ---
+fastapi>=0.100
+uvicorn>=0.20
+soundfile>=0.12
+numpy>=1.24
+# torch / torchaudio come with the GPT-SoVITS environment
+#
+# --- CosyVoice worker (env: voiceclone) ---
+# torch, torchaudio, soundfile, numpy + the CosyVoice repository & Matcha-TTS
+# (installed as part of third_party/CosyVoice)

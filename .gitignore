@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Local artifacts
+/outputs/
+/demo/outputs/
+
+# Third-party sources (clone with scripts/setup_third_party.sh)
+/third_party/
+
+# Model weights (distributed via GitHub Releases)
+models/**/*.pth
+models/**/*.ckpt
+models/**/*.pt
+models/**/*.index
+
+# Datasets and caches
+/data/
+/assets/
+saved_models/
+encoder/saved_models/
+synthesizer/saved_models/
+vocoder/saved_models/
+
+# Build/delivery artifacts
+/dist/
+/course_report/
+*.zip
+*.docx
+
+# OS / editor
+.DS_Store
+*.log
+*.tmp
